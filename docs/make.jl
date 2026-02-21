@@ -1,7 +1,7 @@
 using MyPkg44
 using Documenter
 
-DocMeta.setdocmeta!(MyPkg44, :DocTestSetup, :(using MyPkg44); recursive=true)
+DocMeta.setdocmeta!(MyPkg44, :DocTestSetup, :(using MyPkg44); recursive = true)
 
 makedocs(;
     modules = [MyPkg44],
